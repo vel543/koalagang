@@ -1,0 +1,37 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc0cb; /* Light pink background */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #ff69b4; /* Pink color */
+}
+
+img {
+    max-width: 250px; /* Adjust based on the size of your GIF */
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff69b4;
+    color: white;
+}
